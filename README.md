@@ -1,0 +1,6 @@
+# 全新二开个人免签支付系统/小呆聚合支付系统/微信伪H5免输入金额免挂源码
+
+2024年更新YY百度小程序接口 和映客贵族币接口成功率99<br>近期有商家 五久科技 外号：北辰支付 盗用我们系统 潜伏在售后群 已有多人被骗 已报警 大家注意小呆聚合支付系统是个人二维码免签约即时到账多商户支付系统收款即时到账，无需进入第三方账户，收款更安全支持监听店员收款信息，可使用支付宝微信小号/模拟器挂机免费、开源，无后门风险安装教程一安装后端:1-上传源码到空间后进行解压2-修改数据库文件，路径:config/example.com，设置好您的mysql账号密码3-环境要求:运行环境为:example.com+example.com 设置为public并保存伪静态 设置为thinkphp并保存4-导入数据库数据库文件在根目录，example.com，请访问后自行修改配置信息！默认后台账号和密码均为admin二监控配置使用宝塔监控计划任务→任务类型：访问URl任务名称：随便取执行周期：N分钟：1分钟URL地址：http://域名/cehsald?user=管理员帐号然后计划任务-任务类型：Shell脚本任务名称：随便取执行周期：N分钟：1分钟脚本内容：#!/bin/bash  step=15 #间隔的秒数，不能大于60  for（（i=0;i&lt;60;i=（i+step）））;do    curl http://域名/cehsald?user=管理员账号 #访问链接    sleep $step  done;  exit 0APP监控配置APP监控端路径：publicstaticuserassets/example.com【也就是下载路径】然后把app反编译，反编译操作就是搜索这个域名：example.comexample.com.example.com（不是一个就是第二个）替换成你自己的域名，然后在打包，把打包好的app放回去原来的路径上替换之前的appPC端监控自己研究<br>
+
+
+<p style="color: red;">源代码下载地址：<a href="https://mega-file.org/0CJlk" style="color: red;">https://mega-file.org/0CJlk</a></p><p style="color: red;"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Icon" style="width: 16px; vertical-align: middle; margin-right: 5px;">Telegram:<a href="https://t.me/official_sourcecode" style="color: red;">@official_sourcecode</a></p>
